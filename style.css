@@ -1,0 +1,66 @@
+.titlu-leo {
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.despre-leo {
+    font-family: Arial;
+    width: 800px;
+    margin-top: 30px;
+}
+
+.normal {
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    border-style: solid;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 0.20s,
+    color 0.20s, opacity 0.20s;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.normal:hover {
+    background-color: white;
+    color: brown;
+}
+
+.normal:active{
+    opacity: 0.8;
+}
+
+.anormal {
+    background-color: white;
+    color: brown;
+    border-color: brown;
+    border-style: solid;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 0.20s,
+    color 0.20s, opacity 0.20s;
+    cursor: pointer;
+}
+
+.anormal:hover {
+    background-color: brown;
+    color: white;
+}
+
+.anormal:active{
+    opacity: 0.8;
+}
